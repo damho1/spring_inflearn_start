@@ -21,7 +21,7 @@ public class MemberController {
     }
 
     @GetMapping("/members/new")
-    public String creaForm() {
+    public String createForm() {
         return "members/createMemberForm";
     }
 
